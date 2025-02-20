@@ -38,3 +38,8 @@ variable "billing_code" {
   type        = string
   description = "(Required) Billing code for network resources."
 }
+variable "AWS_SECRET_ACCESS_KEY" {
+  description = "The AWS secret access key"
+  type        = string
+  sensitive   = true
+}
