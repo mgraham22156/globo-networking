@@ -34,3 +34,8 @@ variable "environment" {
   description = "(Optional) Environment to use for all resources."
   default     = "development"
 }
+
+variable "billing_code" {
+  type        = string
+  description = "(Required) Billing code for network resources."
+}
